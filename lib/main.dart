@@ -40,7 +40,7 @@ void main() {
 
   print('$a*$b = $Multiplication');
 
-  /////// Ans to the Question No: 5 ///////// sum (addition), multiply, subtract, divide and remainder of two numbers.
+  /////// Ans to the Question No: 5 /////////
 
   int x = 20;
   int y = 30;
@@ -58,10 +58,43 @@ void main() {
   /////// Ans to the Question No: 6 /////////
 
   /////// Ans to the Question No: 7 /////////
+  Map info = {
+    'id': '110',
+    'name': 'Mohibbullah Faruk',
+    'My Gmail': 'farukofficial20@gmail.com',
+    'My Phone Number': '01890-700306'
+  };
+
+  print(info);
 
   /////// Ans to the Question No: 8 /////////
 
+  int num5 = 55;
+  int num6 = 9;
+
+  double math = -5 + 8 * 6;
+  double mathb = (55 + 9) % 9;
+  double mathc = 20 + -3 * 5 / 8;
+  double mathd = 5 + 15 / 3 * 2 - 8 % 3;
+
+  print(math);
+  print((num5 + num6) % num6);
+  print(mathc);
+  print(mathd);
+
   /////// Ans to the Question No: 9 /////////
+  String ans9 = ('Data-type: One of the most fundamental characteristics of a programming language is the set of data types it supports.'
+      'These are the type of values that can be represented and manipulated in a programming language.'
+      'The Dart language supports the following types−'
+      'Numbers'
+      'Strings'
+      'Booleans'
+      'Lists'
+      'Maps'
+      'Case-sensitive: Dart is case-sensitive. This means that Dart differentiates between uppercase and lowercase characters.'
+      'equal operator: Assignment operators are used to assign value to a variable');
 
   /////// Ans to the Question No: 10 /////////
+  String ans =
+      ('Variables is an identifier used to refer memory location in computer memory that holds a value for that variable');
 }
