@@ -61,4 +61,12 @@ void main() {
   ///==== Ans to the Question No: 09 ======///
 
   ///==== Ans to the Question No: 10 ======///
+
+  List list10 = [1, 2, 3];
+
+  list10.add(4);
+  list10.addAll([5, 6, 7]);
+  list10.removeAt(3);
+
+  print(list10);
 }
