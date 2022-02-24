@@ -112,12 +112,12 @@
 //   return sum;
 // }
 
-// import 'dart:js_util';
+import 'dart:js_util';
 
-// void main() {
-//   var odd_list = [1, 3, 5, 7, 9];
-//   print(odd_list);
-//   // odd_list.insertAll(1, [12, 13, 14]);
-//   odd_list[2] = 55;
-//   print(odd_list);
-// }
+void main() {
+  //var odd_list = [1, 3, 5, 7, 9];
+  //print(odd_list);
+  // odd_list.insertAll(1, [12, 13, 14]);
+  //odd_list[2] = 55;
+  //print(odd_list);
+}
