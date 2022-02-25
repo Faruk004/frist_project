@@ -12,14 +12,11 @@ void main() {
 
   ///==== Ans to the Question No: 02 ======///
 
-  List student_list2 = [
-    '1.Roni \n'
-        '2.Jony \n'
-        '3.Rakib \n'
-        '4.Shakib \n'
-        '5.Tamim \n'
-  ];
+  List student_list2 = ['Faruk', 'Rakib', 'Shakib', 'Roni', 'Joni'];
+
   print(student_list2);
+
+  print('Size Of List: ${student_list2.length}');
 
   ///==== Ans to the Question No: 03 ======///
 
@@ -32,6 +29,14 @@ void main() {
     1,
     'Hello flutter',
   ];
+
+  print(student_list3);
+  print('Size Of List: ${student_list3.length}');
+
+  student_list3.replaceRange(0, 2, ['Tamim', 'Miraz']);
+  print(student_list3);
+
+  student_list3.removeAt(2);
   print(student_list3);
 
   ///==== Ans to the Question No: 04 ======///
