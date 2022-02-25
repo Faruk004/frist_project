@@ -69,6 +69,10 @@ void main() {
       ('if you declare a function and its arguments, then you have to specify each arguments value.');
   var index =
       ('Each element has its index number that tells the element position in the list.');
+  var add_method =
+      ('This method is used to insert the specified value at the end of the list. It can add one element at a time and returns the modified list object. ');
+  var addAll_method =
+      ('This method is used to insert the multiple values to the given list.');
 
   ///==== Ans to the Question No: 10 ======///
 
