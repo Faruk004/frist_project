@@ -65,6 +65,11 @@ void main() {
 
   ///==== Ans to the Question No: 09 ======///
 
+  var argument =
+      ('if you declare a function and its arguments, then you have to specify each arguments value.');
+  var index =
+      ('Each element has its index number that tells the element position in the list.');
+
   ///==== Ans to the Question No: 10 ======///
 
   List list10 = [1, 2, 3];
